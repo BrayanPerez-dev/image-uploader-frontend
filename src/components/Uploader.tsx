@@ -89,7 +89,7 @@ const Wrapper = styled.div`
 .upload-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     align-content: center;
     flex-direction: column;
@@ -125,7 +125,8 @@ p{
 .ant-upload.ant-upload-drag{
   width: 338px;
   height: 218.9px;
-  
+  border: 2px dashed #d9d9d9;
+  border-radius: 8px;
 }
 .ant-upload-drag-container{
   padding:10px;
@@ -138,10 +139,10 @@ p{
 }
 
 .ant-btn{
-  width: 101px;
   height: 31.98px;
   background: #2F80ED;
   border-radius: 8px;
+  color:#fbf7f7;
 }
 `
 export default Uploader;
